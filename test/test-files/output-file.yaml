@@ -1,0 +1,6 @@
+base_a:
+  base_aa:
+    mixin_a: 1
+    mixin_b: 2
+  base_ab: null
+base_b: null

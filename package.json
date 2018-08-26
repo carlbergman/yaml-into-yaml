@@ -1,9 +1,9 @@
 {
-  "name": "yaml-in-yaml",
+  "name": "yaml-into-yaml",
   "version": "0.0.1",
   "description": "A CLI to insert a yaml file into another yaml file",
   "bin": {
-    "yaml-in-yaml": "./src/cli.js"
+    "yaml-into-yaml": "./src/cli.js"
   },
   "main": "./src/cli.js",
   "scripts": {
@@ -16,11 +16,13 @@
   "license": "MIT",
   "devDependencies": {
     "chai": "^4.1.2",
+    "eslint": "^5.4.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
     "mocha": "^5.2.0",
     "nyc": "^12.0.2"
   },
   "dependencies": {
-    "commander": "^2.17.1",
     "js-yaml": "^3.12.0",
     "stdio": "^0.2.7",
     "traverse": "^0.6.6"
