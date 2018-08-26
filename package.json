@@ -1,10 +1,8 @@
 {
   "name": "yaml-into-yaml",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A CLI to insert a yaml file into another yaml file",
-  "bin": {
-    "yaml-into-yaml": "./src/cli.js"
-  },
+  "bin": "./src/cli.js",
   "main": "./src/cli.js",
   "scripts": {
     "test": "nyc mocha"
@@ -29,5 +27,8 @@
   },
   "engines": {
     "node" : ">=8.11.4"
-  }
+  },
+  "files": [
+    "src"
+  ]
 }
