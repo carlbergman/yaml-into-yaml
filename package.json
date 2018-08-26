@@ -3,15 +3,19 @@
   "version": "0.0.1",
   "description": "A CLI to insert a yaml file into another yaml file",
   "bin": {
-    "yaml-in-yaml": "./cli.js"
+    "yaml-in-yaml": "./src/cli.js"
   },
-  "main": "cli.js",
+  "main": "./src/cli.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "keywords": [
     "yaml"
   ],
   "author": "Carl Bergman <bergman.carl@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
 }
