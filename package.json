@@ -1,0 +1,17 @@
+{
+  "name": "yaml-in-yaml",
+  "version": "0.0.1",
+  "description": "A CLI to insert a yaml file into another yaml file",
+  "bin": {
+    "yaml-in-yaml": "./cli.js"
+  },
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "yaml"
+  ],
+  "author": "Carl Bergman <bergman.carl@gmail.com>",
+  "license": "MIT"
+}
