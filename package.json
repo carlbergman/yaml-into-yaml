@@ -1,13 +1,15 @@
 {
   "name": "yaml-into-yaml",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A CLI to insert a yaml file into another yaml file",
   "bin": "./src/cli.js",
   "main": "./src/cli.js",
   "scripts": {
     "test": "nyc mocha"
   },
-  "keywords": ["yaml"],
+  "keywords": [
+    "yaml"
+  ],
   "author": "Carl Bergman <bergman.carl@gmail.com>",
   "license": "MIT",
   "devDependencies": {
@@ -26,7 +28,9 @@
   "engines": {
     "node": ">=8.11.4"
   },
-  "files": ["src"],
+  "files": [
+    "src"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/carlbergman/yaml-into-yaml.git"
