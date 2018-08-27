@@ -1,6 +1,6 @@
 {
   "name": "yaml-into-yaml",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A CLI to insert a yaml file into another yaml file",
   "bin": "./src/cli.js",
   "main": "./src/cli.js",
@@ -26,7 +26,7 @@
     "traverse": "^0.6.6"
   },
   "engines": {
-    "node" : ">=8.11.4"
+    "node": ">=8.11.4"
   },
   "files": [
     "src"
